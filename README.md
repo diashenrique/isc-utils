@@ -1,12 +1,12 @@
 ## ISC-Utils Weather, Exchange Rate, Temperature, Length
-The project is a small kit with useful features to help you to track weather, exchange rates, conversion for temperature, and length scales.
+The project is a small kit with useful features to help you track weather, exchange rates, conversion for temperature, and length scales.
 
 ## Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
 
 ## Installation 
 
-Open terminal and clone/git pull the repo into any local directory
+Open a terminal and clone/git pull the repo into any local directory
 
 ```
 $ git clone git@github.com:intersystems-community/objectscript-contest-template.git
