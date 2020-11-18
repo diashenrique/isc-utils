@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+  <Document name="isc-utils.ZPM">
+    <Module>
+      <Name>isc-utils</Name>
+      <Version>1.0.2</Version>
+      <Description>The project is a small kit with useful features to help you track weather, exchange rates, conversion for temperature, and length scales.</Description>
+      <Keywords>cli,weather,exchange,temperature,conversion,length,scale</Keywords>
+      <Packaging>module</Packaging>
+      <Resource Directory="cls" Name="diashenrique.PKG"/>
+      <SourcesRoot>src</SourcesRoot>
+      <Invokes>
+        <Invoke Class="diashenrique.Utils.Generic" Method="CreateSSLConfiguration">
+          <Arg>SSLUtils</Arg>
+        </Invoke>
+      </Invokes>
+    </Module>
+  </Document>
+</Export>

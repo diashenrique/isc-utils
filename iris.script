@@ -1,0 +1,8 @@
+ do $SYSTEM.OBJ.Load("/opt/irisapp/Installer.cls", "ck")
+ set sc = ##class(App.Installer).setup() 
+ do ##class(App.Installer).CreateSSLConfiguration("SSLUtils")
+ 
+ zn "%SYS"
+ Do ##class(Security.Users).UnExpireUserPasswords("*")
+
+halt
