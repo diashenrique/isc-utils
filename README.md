@@ -9,7 +9,7 @@ Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installi
 Open a terminal and clone/git pull the repo into any local directory
 
 ```
-$ git clone git@github.com:intersystems-community/objectscript-contest-template.git
+$ git clone git@github.com:diashenrique/isc-utils.git
 ```
 
 Open the terminal in this directory and run:
